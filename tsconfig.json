@@ -6,6 +6,7 @@
       "dom.iterable",
       "esnext"
     ],
+    "sourceMap": true,
     "allowJs": true,
     "skipLibCheck": true,
     "esModuleInterop": true,
@@ -17,7 +18,7 @@
     "moduleResolution": "node",
     "resolveJsonModule": true,
     "isolatedModules": true,
-    "noEmit": true,
+    // Even though the jsx extension isn't being used, it is still the syntax required for tsx files, otherwise the app won't build
     "jsx": "react-jsx"
   },
   "include": [
