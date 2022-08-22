@@ -1,10 +1,10 @@
 # React App Boilerplate
 
-This repo is designed to provide an easy start for any team developing a React app.
+This provides a barebones way to just get something rendered on the screen. It is advised to look into additional tools such as Jest and Storybook to aid in development for an application designated for production and/or any app being developed by a team of developers. Consider using Create React App as a beginner or if creating a production app, Next js.
 
 ## Quick Start
 
-### `npm start` to run the app in development mode. Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### `npm start` to run the app in development mode. Open [http://localhost:8080](http://localhost:8080) to view it in the browser.
 
 ### `npm run build` to create an optimized production build. The output is placed in the `build` folder.
 
